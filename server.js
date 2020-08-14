@@ -1,3 +1,5 @@
+require("dotenv").config({path:"./config/config.env"});
+
 const mongoDBConnectionString = "mongodb+srv://hongbin:zixi1019@cluster0-ovfzn.mongodb.net/blog?retryWrites=true&w=majority";
 const HTTP_PORT = process.env.PORT || 8080;
 
